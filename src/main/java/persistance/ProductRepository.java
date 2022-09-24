@@ -25,10 +25,8 @@ public class ProductRepository {
         productMap.put(product.getId(), product);
     }
 
-    // найти продукт по id
     public Product findById(Long id) { return productMap.get(id); }
 
-    // удалить продукт по id
     public void deleteById(Long id) {
         productMap.remove(id);
     }
