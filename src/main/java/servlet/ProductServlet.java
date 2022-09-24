@@ -28,8 +28,7 @@ public class ProductServlet extends HttpServlet {
             req.setAttribute("products", productRepository.findAll());
             getServletContext().getRequestDispatcher("/WEB-INF/product.jsp").forward(req, resp);
         }
-        // else if (req.getPathInfo().equals("/edit")) { ... редактировать продукт по id
-        // else if (req.getPathInfo().equals("/edit")) { ... удалить продукт по id
+
 
     }
 

@@ -2,7 +2,6 @@ package listener;
 
 import persistance.Product;
 import persistance.ProductRepository;
-
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
